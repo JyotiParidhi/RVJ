@@ -24,3 +24,7 @@ if people > trucks
 else
   puts "Fine, lets's stay home then."
 end
+
+
+
+#>>>>>>>>>>>>>>>>practice>>>>>>>>>>>
