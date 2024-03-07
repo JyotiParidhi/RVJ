@@ -30,10 +30,12 @@
 # person1.display_full_name()
 # person2.display_full_name()
 
-
-a = 20
-b = 15
-c = 30
+puts "Enter First No. a= :"
+a = gets.chomp.to_i
+puts "Enter Second No. b=:"
+b = gets.chomp.to_i
+puts "Enter Third No. c= :"
+c = gets.chomp.to_i
 
 if a > b && a > c
 	puts "a is greater than : #{a}"
@@ -44,6 +46,6 @@ else
 end
 
 
- puts "Ruby patch Level: "+RUBY_PATCHLEVEL.to_s
+ # puts "Ruby patch Level: "+RUBY_PATCHLEVEL.to_s
 
- puts "Ruby Version: "+RUBY_VERSION
+ # puts "Ruby Version: "+RUBY_VERSION
